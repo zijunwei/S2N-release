@@ -1,0 +1,8 @@
+*.npy
+*.txt
+ref_pnt_pairs/
+thumos14_results/
+*.pdf
+baselines_results/
+baseline_pnt_pairs/
+results/

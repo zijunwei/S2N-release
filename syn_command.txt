@@ -1,0 +1,4 @@
+rsync -avz --exclude-from='NetModules/syn_excludes.txt'  NetModules/ china:/home/fanxm/Dev/NetModules
+
+before running your python:
+export CUDA_VISIBLE_DEVICES=1

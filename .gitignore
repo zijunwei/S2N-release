@@ -1,0 +1,11 @@
+*.pyc
+*.pkl
+*.tar
+.idea/
+ckpts/
+*.joblib
+trainIdxmodelX
+*.dat
+params/modelparams/
+*.npy
+*.csv

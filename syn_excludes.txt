@@ -1,0 +1,4 @@
+.git
+*.pth.tar
+ckpts/*
+checkpoints/*

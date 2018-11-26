@@ -1,0 +1,224 @@
+/home/zwei/anaconda2/envs/pytorch/bin/python2.7 /home/zwei/Dev/NetModules/PtrNet2/lstm2heads_inception_s4_2GRU_hmatch_trainval.py
+0.4.0a0+84c6887
+{'batch_size': 32,
+ 'embedding_dim': 1024,
+ 'eval': True,
+ 'gpu_id': '0',
+ 'hidden_dim': 512,
+ 'input_dim': 1024,
+ 'lr': 0.0001,
+ 'multiGpu': False,
+ 'net_outputs': 15,
+ 'nof_epoch': 100,
+ 'resume': None,
+ 'seq_len': 360,
+ 'start_epoch': 0}
+Number of Params	15232002
+train, Reading training data list from /home/zwei/Dev/NetModules/ActionLocalizationDevs/action_det_prep/thumos14_tag_val_proposal_list.csv	 clip len:360, sample rate: 4
+67 reps found
+train	169 video clips, 27789 training instances, 2460 positive examples, max instance per segment:14
+val, Reading training data list from /home/zwei/Dev/NetModules/ActionLocalizationDevs/action_det_prep/thumos14_tag_val_proposal_list.csv	 clip len:360, sample rate: 4
+76 reps found
+val	30 video clips, 4407 training instances, 372 positive examples, max instance per segment:7
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000000, LR: 0.000100,	loss=0.2952, 	 c-loss:0.0652, 	loc-loss:0.2301	cls-Accuracy:0.0000	loc-Avg-IOU:0.4528	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000000, LR: 0.000100,	loss=0.4531, 	 c-loss:0.0757, 	loc-loss:0.3774	cls-Accuracy:0.0000	loc-Avg-IOU:0.3551	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000001, LR: 0.000100,	loss=0.1247, 	 c-loss:0.0400, 	loc-loss:0.0847	cls-Accuracy:0.0000	loc-Avg-IOU:0.7309	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000001, LR: 0.000100,	loss=0.5381, 	 c-loss:0.0812, 	loc-loss:0.4569	cls-Accuracy:0.0000	loc-Avg-IOU:0.3507	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000002, LR: 0.000100,	loss=0.0765, 	 c-loss:0.0297, 	loc-loss:0.0468	cls-Accuracy:0.0000	loc-Avg-IOU:0.8548	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000002, LR: 0.000100,	loss=0.5965, 	 c-loss:0.0865, 	loc-loss:0.5100	cls-Accuracy:0.0000	loc-Avg-IOU:0.4073	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000003, LR: 0.000100,	loss=0.0570, 	 c-loss:0.0230, 	loc-loss:0.0339	cls-Accuracy:0.0000	loc-Avg-IOU:0.8980	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000003, LR: 0.000100,	loss=0.6448, 	 c-loss:0.0997, 	loc-loss:0.5451	cls-Accuracy:0.0000	loc-Avg-IOU:0.4034	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000004, LR: 0.000100,	loss=0.0469, 	 c-loss:0.0194, 	loc-loss:0.0275	cls-Accuracy:0.0000	loc-Avg-IOU:0.9185	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000004, LR: 0.000100,	loss=0.6856, 	 c-loss:0.1183, 	loc-loss:0.5673	cls-Accuracy:0.0000	loc-Avg-IOU:0.4161	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000005, LR: 0.000100,	loss=0.0414, 	 c-loss:0.0172, 	loc-loss:0.0242	cls-Accuracy:0.0000	loc-Avg-IOU:0.9339	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000005, LR: 0.000100,	loss=0.7156, 	 c-loss:0.1058, 	loc-loss:0.6098	cls-Accuracy:0.0000	loc-Avg-IOU:0.4121	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000006, LR: 0.000100,	loss=0.0351, 	 c-loss:0.0142, 	loc-loss:0.0209	cls-Accuracy:0.0000	loc-Avg-IOU:0.9452	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000006, LR: 0.000100,	loss=0.7935, 	 c-loss:0.1399, 	loc-loss:0.6536	cls-Accuracy:0.0000	loc-Avg-IOU:0.4147	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:44 ETA:  0:00:00Train -- Epoch :000007, LR: 0.000100,	loss=0.0349, 	 c-loss:0.0133, 	loc-loss:0.0216	cls-Accuracy:0.0000	loc-Avg-IOU:0.9449	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000007, LR: 0.000100,	loss=0.7449, 	 c-loss:0.1234, 	loc-loss:0.6216	cls-Accuracy:0.0000	loc-Avg-IOU:0.4156	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000008, LR: 0.000100,	loss=0.0276, 	 c-loss:0.0117, 	loc-loss:0.0158	cls-Accuracy:0.0000	loc-Avg-IOU:0.9615	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000008, LR: 0.000100,	loss=0.8028, 	 c-loss:0.1345, 	loc-loss:0.6683	cls-Accuracy:0.0000	loc-Avg-IOU:0.4289	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000009, LR: 0.000100,	loss=0.0269, 	 c-loss:0.0108, 	loc-loss:0.0161	cls-Accuracy:0.0000	loc-Avg-IOU:0.9597	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000009, LR: 0.000100,	loss=0.8052, 	 c-loss:0.1349, 	loc-loss:0.6703	cls-Accuracy:0.0000	loc-Avg-IOU:0.4158	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000010, LR: 0.000100,	loss=0.0242, 	 c-loss:0.0099, 	loc-loss:0.0144	cls-Accuracy:0.0000	loc-Avg-IOU:0.9636	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000010, LR: 0.000100,	loss=0.8636, 	 c-loss:0.1337, 	loc-loss:0.7299	cls-Accuracy:0.0000	loc-Avg-IOU:0.4196	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000011, LR: 0.000100,	loss=0.0242, 	 c-loss:0.0095, 	loc-loss:0.0147	cls-Accuracy:0.0000	loc-Avg-IOU:0.9658	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000011, LR: 0.000100,	loss=0.8732, 	 c-loss:0.1482, 	loc-loss:0.7250	cls-Accuracy:0.0000	loc-Avg-IOU:0.3930	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000012, LR: 0.000100,	loss=0.0215, 	 c-loss:0.0085, 	loc-loss:0.0130	cls-Accuracy:0.0000	loc-Avg-IOU:0.9705	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000012, LR: 0.000100,	loss=0.8201, 	 c-loss:0.1496, 	loc-loss:0.6705	cls-Accuracy:0.0000	loc-Avg-IOU:0.4450	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000013, LR: 0.000100,	loss=0.0198, 	 c-loss:0.0080, 	loc-loss:0.0118	cls-Accuracy:0.0000	loc-Avg-IOU:0.9734	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000013, LR: 0.000100,	loss=0.9118, 	 c-loss:0.1669, 	loc-loss:0.7450	cls-Accuracy:0.0000	loc-Avg-IOU:0.4114	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000014, LR: 0.000100,	loss=0.0199, 	 c-loss:0.0077, 	loc-loss:0.0122	cls-Accuracy:0.0000	loc-Avg-IOU:0.9728	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000014, LR: 0.000100,	loss=0.8507, 	 c-loss:0.1474, 	loc-loss:0.7034	cls-Accuracy:0.0000	loc-Avg-IOU:0.4327	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000015, LR: 0.000100,	loss=0.0173, 	 c-loss:0.0069, 	loc-loss:0.0104	cls-Accuracy:0.0000	loc-Avg-IOU:0.9759	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000015, LR: 0.000100,	loss=0.9615, 	 c-loss:0.1745, 	loc-loss:0.7870	cls-Accuracy:0.0000	loc-Avg-IOU:0.3955	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000016, LR: 0.000100,	loss=0.0192, 	 c-loss:0.0074, 	loc-loss:0.0118	cls-Accuracy:0.0000	loc-Avg-IOU:0.9720	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000016, LR: 0.000100,	loss=0.9527, 	 c-loss:0.1862, 	loc-loss:0.7666	cls-Accuracy:0.0000	loc-Avg-IOU:0.4105	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000017, LR: 0.000100,	loss=0.0176, 	 c-loss:0.0069, 	loc-loss:0.0107	cls-Accuracy:0.0000	loc-Avg-IOU:0.9736	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000017, LR: 0.000100,	loss=0.9864, 	 c-loss:0.1783, 	loc-loss:0.8081	cls-Accuracy:0.0000	loc-Avg-IOU:0.4157	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000018, LR: 0.000100,	loss=0.0167, 	 c-loss:0.0064, 	loc-loss:0.0103	cls-Accuracy:0.0000	loc-Avg-IOU:0.9757	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000018, LR: 0.000100,	loss=1.0301, 	 c-loss:0.2072, 	loc-loss:0.8230	cls-Accuracy:0.0000	loc-Avg-IOU:0.3910	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000019, LR: 0.000100,	loss=0.0157, 	 c-loss:0.0064, 	loc-loss:0.0092	cls-Accuracy:0.0000	loc-Avg-IOU:0.9774	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000019, LR: 0.000100,	loss=0.9490, 	 c-loss:0.1779, 	loc-loss:0.7711	cls-Accuracy:0.0000	loc-Avg-IOU:0.3949	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000020, LR: 0.000100,	loss=0.0155, 	 c-loss:0.0060, 	loc-loss:0.0095	cls-Accuracy:0.0000	loc-Avg-IOU:0.9790	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000020, LR: 0.000100,	loss=1.0138, 	 c-loss:0.2069, 	loc-loss:0.8069	cls-Accuracy:0.0000	loc-Avg-IOU:0.4222	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000021, LR: 0.000100,	loss=0.0165, 	 c-loss:0.0075, 	loc-loss:0.0090	cls-Accuracy:0.0000	loc-Avg-IOU:0.9814	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000021, LR: 0.000100,	loss=0.9808, 	 c-loss:0.1897, 	loc-loss:0.7911	cls-Accuracy:0.0000	loc-Avg-IOU:0.4107	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000022, LR: 0.000100,	loss=0.0142, 	 c-loss:0.0063, 	loc-loss:0.0079	cls-Accuracy:0.0000	loc-Avg-IOU:0.9826	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:19 ETA:  0:00:00Val -- Epoch :000022, LR: 0.000100,	loss=1.0209, 	 c-loss:0.2068, 	loc-loss:0.8142	cls-Accuracy:0.0000	loc-Avg-IOU:0.4124	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:44 ETA:  0:00:00Train -- Epoch :000023, LR: 0.000100,	loss=0.0156, 	 c-loss:0.0070, 	loc-loss:0.0086	cls-Accuracy:0.0000	loc-Avg-IOU:0.9818	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000023, LR: 0.000100,	loss=1.0030, 	 c-loss:0.1968, 	loc-loss:0.8062	cls-Accuracy:0.0000	loc-Avg-IOU:0.4187	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:44 ETA:  0:00:00Train -- Epoch :000024, LR: 0.000100,	loss=0.0153, 	 c-loss:0.0071, 	loc-loss:0.0082	cls-Accuracy:0.0000	loc-Avg-IOU:0.9832	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000024, LR: 0.000100,	loss=0.9503, 	 c-loss:0.1869, 	loc-loss:0.7634	cls-Accuracy:0.0000	loc-Avg-IOU:0.4208	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:44 ETA:  0:00:00Train -- Epoch :000025, LR: 0.000100,	loss=0.0161, 	 c-loss:0.0068, 	loc-loss:0.0092	cls-Accuracy:0.0000	loc-Avg-IOU:0.9808	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000025, LR: 0.000100,	loss=1.0651, 	 c-loss:0.2192, 	loc-loss:0.8459	cls-Accuracy:0.0000	loc-Avg-IOU:0.3960	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000026, LR: 0.000100,	loss=0.0141, 	 c-loss:0.0061, 	loc-loss:0.0080	cls-Accuracy:0.0000	loc-Avg-IOU:0.9824	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000026, LR: 0.000100,	loss=1.0327, 	 c-loss:0.1946, 	loc-loss:0.8381	cls-Accuracy:0.0000	loc-Avg-IOU:0.4037	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:44 ETA:  0:00:00Train -- Epoch :000027, LR: 0.000100,	loss=0.0150, 	 c-loss:0.0073, 	loc-loss:0.0078	cls-Accuracy:0.0000	loc-Avg-IOU:0.9845	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000027, LR: 0.000100,	loss=1.0052, 	 c-loss:0.1812, 	loc-loss:0.8240	cls-Accuracy:0.0000	loc-Avg-IOU:0.3980	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:44 ETA:  0:00:00Train -- Epoch :000028, LR: 0.000100,	loss=0.0155, 	 c-loss:0.0070, 	loc-loss:0.0084	cls-Accuracy:0.0000	loc-Avg-IOU:0.9815	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000028, LR: 0.000100,	loss=1.0717, 	 c-loss:0.1967, 	loc-loss:0.8750	cls-Accuracy:0.0000	loc-Avg-IOU:0.4072	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000029, LR: 0.000100,	loss=0.0149, 	 c-loss:0.0067, 	loc-loss:0.0082	cls-Accuracy:0.0000	loc-Avg-IOU:0.9825	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000029, LR: 0.000100,	loss=1.0070, 	 c-loss:0.1841, 	loc-loss:0.8229	cls-Accuracy:0.0000	loc-Avg-IOU:0.4335	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000030, LR: 0.000100,	loss=0.0147, 	 c-loss:0.0068, 	loc-loss:0.0079	cls-Accuracy:0.0000	loc-Avg-IOU:0.9828	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000030, LR: 0.000100,	loss=1.0788, 	 c-loss:0.1792, 	loc-loss:0.8996	cls-Accuracy:0.0000	loc-Avg-IOU:0.4096	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:44 ETA:  0:00:00Train -- Epoch :000031, LR: 0.000100,	loss=0.0141, 	 c-loss:0.0065, 	loc-loss:0.0076	cls-Accuracy:0.0000	loc-Avg-IOU:0.9838	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000031, LR: 0.000100,	loss=1.0989, 	 c-loss:0.2183, 	loc-loss:0.8806	cls-Accuracy:0.0000	loc-Avg-IOU:0.4233	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000032, LR: 0.000100,	loss=0.0135, 	 c-loss:0.0073, 	loc-loss:0.0062	cls-Accuracy:0.0000	loc-Avg-IOU:0.9870	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000032, LR: 0.000100,	loss=1.1235, 	 c-loss:0.2170, 	loc-loss:0.9065	cls-Accuracy:0.0000	loc-Avg-IOU:0.4190	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000033, LR: 0.000100,	loss=0.0151, 	 c-loss:0.0074, 	loc-loss:0.0076	cls-Accuracy:0.0000	loc-Avg-IOU:0.9842	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000033, LR: 0.000100,	loss=1.0969, 	 c-loss:0.2023, 	loc-loss:0.8946	cls-Accuracy:0.0000	loc-Avg-IOU:0.4095	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000034, LR: 0.000100,	loss=0.0171, 	 c-loss:0.0071, 	loc-loss:0.0100	cls-Accuracy:0.0000	loc-Avg-IOU:0.9771	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000034, LR: 0.000100,	loss=1.1315, 	 c-loss:0.2455, 	loc-loss:0.8860	cls-Accuracy:0.0000	loc-Avg-IOU:0.3934	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000035, LR: 0.000100,	loss=0.0143, 	 c-loss:0.0069, 	loc-loss:0.0074	cls-Accuracy:0.0000	loc-Avg-IOU:0.9848	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000035, LR: 0.000100,	loss=1.0117, 	 c-loss:0.1678, 	loc-loss:0.8439	cls-Accuracy:0.0000	loc-Avg-IOU:0.4245	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000036, LR: 0.000100,	loss=0.0138, 	 c-loss:0.0064, 	loc-loss:0.0074	cls-Accuracy:0.0000	loc-Avg-IOU:0.9852	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000036, LR: 0.000100,	loss=1.0843, 	 c-loss:0.1953, 	loc-loss:0.8891	cls-Accuracy:0.0000	loc-Avg-IOU:0.4215	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000037, LR: 0.000100,	loss=0.0130, 	 c-loss:0.0064, 	loc-loss:0.0066	cls-Accuracy:0.0000	loc-Avg-IOU:0.9873	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000037, LR: 0.000100,	loss=1.1495, 	 c-loss:0.2220, 	loc-loss:0.9275	cls-Accuracy:0.0000	loc-Avg-IOU:0.4347	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000038, LR: 0.000100,	loss=0.0137, 	 c-loss:0.0070, 	loc-loss:0.0067	cls-Accuracy:0.0000	loc-Avg-IOU:0.9872	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000038, LR: 0.000100,	loss=1.0735, 	 c-loss:0.2068, 	loc-loss:0.8667	cls-Accuracy:0.0000	loc-Avg-IOU:0.4517	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000039, LR: 0.000100,	loss=0.0139, 	 c-loss:0.0082, 	loc-loss:0.0057	cls-Accuracy:0.0000	loc-Avg-IOU:0.9893	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000039, LR: 0.000100,	loss=1.1006, 	 c-loss:0.1818, 	loc-loss:0.9188	cls-Accuracy:0.0000	loc-Avg-IOU:0.4345	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000040, LR: 0.000100,	loss=0.0162, 	 c-loss:0.0079, 	loc-loss:0.0083	cls-Accuracy:0.0000	loc-Avg-IOU:0.9828	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000040, LR: 0.000100,	loss=1.0630, 	 c-loss:0.1829, 	loc-loss:0.8801	cls-Accuracy:0.0000	loc-Avg-IOU:0.4205	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000041, LR: 0.000100,	loss=0.0155, 	 c-loss:0.0069, 	loc-loss:0.0085	cls-Accuracy:0.0000	loc-Avg-IOU:0.9803	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000041, LR: 0.000100,	loss=1.0593, 	 c-loss:0.1995, 	loc-loss:0.8597	cls-Accuracy:0.0000	loc-Avg-IOU:0.4310	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000042, LR: 0.000100,	loss=0.0174, 	 c-loss:0.0081, 	loc-loss:0.0093	cls-Accuracy:0.0000	loc-Avg-IOU:0.9793	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000042, LR: 0.000100,	loss=1.0971, 	 c-loss:0.2183, 	loc-loss:0.8787	cls-Accuracy:0.0000	loc-Avg-IOU:0.4541	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000043, LR: 0.000100,	loss=0.0148, 	 c-loss:0.0080, 	loc-loss:0.0068	cls-Accuracy:0.0000	loc-Avg-IOU:0.9863	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000043, LR: 0.000100,	loss=1.1323, 	 c-loss:0.1999, 	loc-loss:0.9324	cls-Accuracy:0.0000	loc-Avg-IOU:0.4101	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000044, LR: 0.000100,	loss=0.0144, 	 c-loss:0.0075, 	loc-loss:0.0068	cls-Accuracy:0.0000	loc-Avg-IOU:0.9867	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000044, LR: 0.000100,	loss=1.1350, 	 c-loss:0.2340, 	loc-loss:0.9010	cls-Accuracy:0.0000	loc-Avg-IOU:0.4609	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000045, LR: 0.000100,	loss=0.0126, 	 c-loss:0.0064, 	loc-loss:0.0062	cls-Accuracy:0.0000	loc-Avg-IOU:0.9872	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000045, LR: 0.000100,	loss=1.1493, 	 c-loss:0.2250, 	loc-loss:0.9243	cls-Accuracy:0.0000	loc-Avg-IOU:0.4406	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000046, LR: 0.000100,	loss=0.0141, 	 c-loss:0.0069, 	loc-loss:0.0072	cls-Accuracy:0.0000	loc-Avg-IOU:0.9853	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000046, LR: 0.000100,	loss=1.1383, 	 c-loss:0.2360, 	loc-loss:0.9023	cls-Accuracy:0.0000	loc-Avg-IOU:0.4502	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000047, LR: 0.000100,	loss=0.0128, 	 c-loss:0.0073, 	loc-loss:0.0055	cls-Accuracy:0.0000	loc-Avg-IOU:0.9886	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000047, LR: 0.000100,	loss=1.1370, 	 c-loss:0.2340, 	loc-loss:0.9030	cls-Accuracy:0.0000	loc-Avg-IOU:0.4584	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000048, LR: 0.000100,	loss=0.0150, 	 c-loss:0.0078, 	loc-loss:0.0072	cls-Accuracy:0.0000	loc-Avg-IOU:0.9844	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000048, LR: 0.000100,	loss=1.1580, 	 c-loss:0.2220, 	loc-loss:0.9360	cls-Accuracy:0.0000	loc-Avg-IOU:0.4450	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000049, LR: 0.000100,	loss=0.0130, 	 c-loss:0.0061, 	loc-loss:0.0069	cls-Accuracy:0.0000	loc-Avg-IOU:0.9846	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000049, LR: 0.000100,	loss=1.1252, 	 c-loss:0.2174, 	loc-loss:0.9078	cls-Accuracy:0.0000	loc-Avg-IOU:0.4379	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000050, LR: 0.000100,	loss=0.0147, 	 c-loss:0.0069, 	loc-loss:0.0078	cls-Accuracy:0.0000	loc-Avg-IOU:0.9823	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000050, LR: 0.000100,	loss=1.1267, 	 c-loss:0.2191, 	loc-loss:0.9076	cls-Accuracy:0.0000	loc-Avg-IOU:0.4289	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000051, LR: 0.000100,	loss=0.0121, 	 c-loss:0.0066, 	loc-loss:0.0055	cls-Accuracy:0.0000	loc-Avg-IOU:0.9896	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000051, LR: 0.000100,	loss=1.0322, 	 c-loss:0.2141, 	loc-loss:0.8182	cls-Accuracy:0.0000	loc-Avg-IOU:0.4854	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000052, LR: 0.000100,	loss=0.0141, 	 c-loss:0.0082, 	loc-loss:0.0059	cls-Accuracy:0.0000	loc-Avg-IOU:0.9889	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000052, LR: 0.000100,	loss=1.1437, 	 c-loss:0.2294, 	loc-loss:0.9142	cls-Accuracy:0.0000	loc-Avg-IOU:0.4500	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000053, LR: 0.000100,	loss=0.0165, 	 c-loss:0.0088, 	loc-loss:0.0077	cls-Accuracy:0.0000	loc-Avg-IOU:0.9840	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000053, LR: 0.000100,	loss=1.1533, 	 c-loss:0.1832, 	loc-loss:0.9701	cls-Accuracy:0.0000	loc-Avg-IOU:0.4252	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000054, LR: 0.000100,	loss=0.0145, 	 c-loss:0.0078, 	loc-loss:0.0067	cls-Accuracy:0.0000	loc-Avg-IOU:0.9866	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000054, LR: 0.000100,	loss=1.0979, 	 c-loss:0.2392, 	loc-loss:0.8587	cls-Accuracy:0.0000	loc-Avg-IOU:0.4746	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000055, LR: 0.000100,	loss=0.0136, 	 c-loss:0.0086, 	loc-loss:0.0050	cls-Accuracy:0.0000	loc-Avg-IOU:0.9916	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000055, LR: 0.000100,	loss=1.1130, 	 c-loss:0.2180, 	loc-loss:0.8950	cls-Accuracy:0.0000	loc-Avg-IOU:0.4669	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000056, LR: 0.000100,	loss=0.0173, 	 c-loss:0.0115, 	loc-loss:0.0058	cls-Accuracy:0.0000	loc-Avg-IOU:0.9894	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000056, LR: 0.000100,	loss=1.1438, 	 c-loss:0.2071, 	loc-loss:0.9367	cls-Accuracy:0.0000	loc-Avg-IOU:0.4695	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000057, LR: 0.000100,	loss=0.0154, 	 c-loss:0.0101, 	loc-loss:0.0052	cls-Accuracy:0.0000	loc-Avg-IOU:0.9908	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000057, LR: 0.000100,	loss=1.2103, 	 c-loss:0.2381, 	loc-loss:0.9723	cls-Accuracy:0.0000	loc-Avg-IOU:0.4606	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000058, LR: 0.000100,	loss=0.0186, 	 c-loss:0.0120, 	loc-loss:0.0065	cls-Accuracy:0.0000	loc-Avg-IOU:0.9885	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000058, LR: 0.000100,	loss=1.1094, 	 c-loss:0.2063, 	loc-loss:0.9031	cls-Accuracy:0.0000	loc-Avg-IOU:0.4768	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000059, LR: 0.000100,	loss=0.0179, 	 c-loss:0.0099, 	loc-loss:0.0081	cls-Accuracy:0.0000	loc-Avg-IOU:0.9826	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000059, LR: 0.000100,	loss=1.1090, 	 c-loss:0.2215, 	loc-loss:0.8875	cls-Accuracy:0.0000	loc-Avg-IOU:0.4607	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000060, LR: 0.000100,	loss=0.0167, 	 c-loss:0.0093, 	loc-loss:0.0074	cls-Accuracy:0.0000	loc-Avg-IOU:0.9845	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000060, LR: 0.000100,	loss=1.1761, 	 c-loss:0.2385, 	loc-loss:0.9376	cls-Accuracy:0.0000	loc-Avg-IOU:0.4556	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000061, LR: 0.000100,	loss=0.0171, 	 c-loss:0.0101, 	loc-loss:0.0070	cls-Accuracy:0.0000	loc-Avg-IOU:0.9866	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000061, LR: 0.000100,	loss=1.1567, 	 c-loss:0.2057, 	loc-loss:0.9510	cls-Accuracy:0.0000	loc-Avg-IOU:0.4507	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000062, LR: 0.000100,	loss=0.0164, 	 c-loss:0.0088, 	loc-loss:0.0075	cls-Accuracy:0.0000	loc-Avg-IOU:0.9843	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000062, LR: 0.000100,	loss=1.1613, 	 c-loss:0.2298, 	loc-loss:0.9314	cls-Accuracy:0.0000	loc-Avg-IOU:0.4429	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000063, LR: 0.000100,	loss=0.0138, 	 c-loss:0.0076, 	loc-loss:0.0062	cls-Accuracy:0.0000	loc-Avg-IOU:0.9881	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000063, LR: 0.000100,	loss=1.1379, 	 c-loss:0.2195, 	loc-loss:0.9184	cls-Accuracy:0.0000	loc-Avg-IOU:0.4645	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000064, LR: 0.000100,	loss=0.0117, 	 c-loss:0.0072, 	loc-loss:0.0044	cls-Accuracy:0.0000	loc-Avg-IOU:0.9917	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000064, LR: 0.000100,	loss=1.1772, 	 c-loss:0.2270, 	loc-loss:0.9502	cls-Accuracy:0.0000	loc-Avg-IOU:0.4601	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000065, LR: 0.000100,	loss=0.0147, 	 c-loss:0.0084, 	loc-loss:0.0063	cls-Accuracy:0.0000	loc-Avg-IOU:0.9878	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000065, LR: 0.000100,	loss=1.1529, 	 c-loss:0.2228, 	loc-loss:0.9301	cls-Accuracy:0.0000	loc-Avg-IOU:0.4659	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000066, LR: 0.000100,	loss=0.0161, 	 c-loss:0.0093, 	loc-loss:0.0069	cls-Accuracy:0.0000	loc-Avg-IOU:0.9861	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000066, LR: 0.000100,	loss=1.1544, 	 c-loss:0.2359, 	loc-loss:0.9185	cls-Accuracy:0.0000	loc-Avg-IOU:0.4554	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000067, LR: 0.000100,	loss=0.0121, 	 c-loss:0.0075, 	loc-loss:0.0047	cls-Accuracy:0.0000	loc-Avg-IOU:0.9916	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000067, LR: 0.000100,	loss=1.1428, 	 c-loss:0.2182, 	loc-loss:0.9246	cls-Accuracy:0.0000	loc-Avg-IOU:0.4651	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000068, LR: 0.000100,	loss=0.0145, 	 c-loss:0.0090, 	loc-loss:0.0056	cls-Accuracy:0.0000	loc-Avg-IOU:0.9883	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000068, LR: 0.000100,	loss=1.1414, 	 c-loss:0.1828, 	loc-loss:0.9586	cls-Accuracy:0.0000	loc-Avg-IOU:0.4695	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000069, LR: 0.000100,	loss=0.0180, 	 c-loss:0.0107, 	loc-loss:0.0073	cls-Accuracy:0.0000	loc-Avg-IOU:0.9858	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000069, LR: 0.000100,	loss=1.0843, 	 c-loss:0.2105, 	loc-loss:0.8738	cls-Accuracy:0.0000	loc-Avg-IOU:0.4595	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000070, LR: 0.000100,	loss=0.0159, 	 c-loss:0.0099, 	loc-loss:0.0060	cls-Accuracy:0.0000	loc-Avg-IOU:0.9888	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000070, LR: 0.000100,	loss=1.1365, 	 c-loss:0.1984, 	loc-loss:0.9381	cls-Accuracy:0.0000	loc-Avg-IOU:0.4683	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000071, LR: 0.000100,	loss=0.0169, 	 c-loss:0.0108, 	loc-loss:0.0061	cls-Accuracy:0.0000	loc-Avg-IOU:0.9885	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000071, LR: 0.000100,	loss=1.0856, 	 c-loss:0.2308, 	loc-loss:0.8548	cls-Accuracy:0.0000	loc-Avg-IOU:0.4756	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000072, LR: 0.000100,	loss=0.0136, 	 c-loss:0.0085, 	loc-loss:0.0052	cls-Accuracy:0.0000	loc-Avg-IOU:0.9900	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000072, LR: 0.000100,	loss=1.1521, 	 c-loss:0.2397, 	loc-loss:0.9123	cls-Accuracy:0.0000	loc-Avg-IOU:0.4692	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000073, LR: 0.000100,	loss=0.0133, 	 c-loss:0.0077, 	loc-loss:0.0056	cls-Accuracy:0.0000	loc-Avg-IOU:0.9888	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000073, LR: 0.000100,	loss=1.1549, 	 c-loss:0.2136, 	loc-loss:0.9414	cls-Accuracy:0.0000	loc-Avg-IOU:0.4479	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000074, LR: 0.000100,	loss=0.0131, 	 c-loss:0.0076, 	loc-loss:0.0055	cls-Accuracy:0.0000	loc-Avg-IOU:0.9891	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000074, LR: 0.000100,	loss=1.1655, 	 c-loss:0.2351, 	loc-loss:0.9304	cls-Accuracy:0.0000	loc-Avg-IOU:0.4557	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000075, LR: 0.000100,	loss=0.0123, 	 c-loss:0.0070, 	loc-loss:0.0053	cls-Accuracy:0.0000	loc-Avg-IOU:0.9900	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000075, LR: 0.000100,	loss=1.1662, 	 c-loss:0.2105, 	loc-loss:0.9558	cls-Accuracy:0.0000	loc-Avg-IOU:0.4515	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000076, LR: 0.000100,	loss=0.0124, 	 c-loss:0.0074, 	loc-loss:0.0050	cls-Accuracy:0.0000	loc-Avg-IOU:0.9910	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000076, LR: 0.000100,	loss=1.1383, 	 c-loss:0.2363, 	loc-loss:0.9020	cls-Accuracy:0.0000	loc-Avg-IOU:0.4558	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000077, LR: 0.000100,	loss=0.0131, 	 c-loss:0.0088, 	loc-loss:0.0043	cls-Accuracy:0.0000	loc-Avg-IOU:0.9927	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000077, LR: 0.000100,	loss=1.1427, 	 c-loss:0.2245, 	loc-loss:0.9182	cls-Accuracy:0.0000	loc-Avg-IOU:0.4723	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000078, LR: 0.000100,	loss=0.0168, 	 c-loss:0.0102, 	loc-loss:0.0066	cls-Accuracy:0.0000	loc-Avg-IOU:0.9878	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000078, LR: 0.000100,	loss=1.1247, 	 c-loss:0.2030, 	loc-loss:0.9216	cls-Accuracy:0.0000	loc-Avg-IOU:0.4406	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000079, LR: 0.000100,	loss=0.0141, 	 c-loss:0.0083, 	loc-loss:0.0058	cls-Accuracy:0.0000	loc-Avg-IOU:0.9892	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000079, LR: 0.000100,	loss=1.1325, 	 c-loss:0.2078, 	loc-loss:0.9247	cls-Accuracy:0.0000	loc-Avg-IOU:0.4419	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000080, LR: 0.000100,	loss=0.0150, 	 c-loss:0.0091, 	loc-loss:0.0059	cls-Accuracy:0.0000	loc-Avg-IOU:0.9891	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000080, LR: 0.000100,	loss=1.1456, 	 c-loss:0.2107, 	loc-loss:0.9349	cls-Accuracy:0.0000	loc-Avg-IOU:0.4661	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000081, LR: 0.000100,	loss=0.0142, 	 c-loss:0.0091, 	loc-loss:0.0051	cls-Accuracy:0.0000	loc-Avg-IOU:0.9911	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000081, LR: 0.000100,	loss=1.1689, 	 c-loss:0.2089, 	loc-loss:0.9600	cls-Accuracy:0.0000	loc-Avg-IOU:0.4404	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000082, LR: 0.000100,	loss=0.0174, 	 c-loss:0.0109, 	loc-loss:0.0065	cls-Accuracy:0.0000	loc-Avg-IOU:0.9882	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000082, LR: 0.000100,	loss=1.1494, 	 c-loss:0.2138, 	loc-loss:0.9356	cls-Accuracy:0.0000	loc-Avg-IOU:0.4525	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000083, LR: 0.000100,	loss=0.0134, 	 c-loss:0.0089, 	loc-loss:0.0046	cls-Accuracy:0.0000	loc-Avg-IOU:0.9926	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000083, LR: 0.000100,	loss=1.1833, 	 c-loss:0.2224, 	loc-loss:0.9608	cls-Accuracy:0.0000	loc-Avg-IOU:0.4507	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000084, LR: 0.000100,	loss=0.0154, 	 c-loss:0.0103, 	loc-loss:0.0051	cls-Accuracy:0.0000	loc-Avg-IOU:0.9919	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000084, LR: 0.000100,	loss=1.1128, 	 c-loss:0.1942, 	loc-loss:0.9187	cls-Accuracy:0.0000	loc-Avg-IOU:0.4493	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000085, LR: 0.000100,	loss=0.0145, 	 c-loss:0.0098, 	loc-loss:0.0047	cls-Accuracy:0.0000	loc-Avg-IOU:0.9922	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000085, LR: 0.000100,	loss=1.1060, 	 c-loss:0.2066, 	loc-loss:0.8994	cls-Accuracy:0.0000	loc-Avg-IOU:0.4711	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000086, LR: 0.000100,	loss=0.0132, 	 c-loss:0.0088, 	loc-loss:0.0044	cls-Accuracy:0.0000	loc-Avg-IOU:0.9927	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000086, LR: 0.000100,	loss=1.1496, 	 c-loss:0.2163, 	loc-loss:0.9333	cls-Accuracy:0.0000	loc-Avg-IOU:0.4743	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000087, LR: 0.000100,	loss=0.0142, 	 c-loss:0.0094, 	loc-loss:0.0048	cls-Accuracy:0.0000	loc-Avg-IOU:0.9911	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000087, LR: 0.000100,	loss=1.1703, 	 c-loss:0.2245, 	loc-loss:0.9458	cls-Accuracy:0.0000	loc-Avg-IOU:0.4493	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000088, LR: 0.000100,	loss=0.0139, 	 c-loss:0.0084, 	loc-loss:0.0055	cls-Accuracy:0.0000	loc-Avg-IOU:0.9898	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000088, LR: 0.000100,	loss=1.1581, 	 c-loss:0.2190, 	loc-loss:0.9391	cls-Accuracy:0.0000	loc-Avg-IOU:0.4543	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000089, LR: 0.000100,	loss=0.0164, 	 c-loss:0.0105, 	loc-loss:0.0059	cls-Accuracy:0.0000	loc-Avg-IOU:0.9897	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000089, LR: 0.000100,	loss=1.1650, 	 c-loss:0.2194, 	loc-loss:0.9456	cls-Accuracy:0.0000	loc-Avg-IOU:0.4524	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000090, LR: 0.000100,	loss=0.0149, 	 c-loss:0.0095, 	loc-loss:0.0054	cls-Accuracy:0.0000	loc-Avg-IOU:0.9913	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000090, LR: 0.000100,	loss=1.1236, 	 c-loss:0.1821, 	loc-loss:0.9415	cls-Accuracy:0.0000	loc-Avg-IOU:0.4329	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000091, LR: 0.000100,	loss=0.0158, 	 c-loss:0.0097, 	loc-loss:0.0061	cls-Accuracy:0.0000	loc-Avg-IOU:0.9877	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000091, LR: 0.000100,	loss=1.1897, 	 c-loss:0.1927, 	loc-loss:0.9970	cls-Accuracy:0.0000	loc-Avg-IOU:0.4214	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000092, LR: 0.000100,	loss=0.0162, 	 c-loss:0.0094, 	loc-loss:0.0068	cls-Accuracy:0.0000	loc-Avg-IOU:0.9871	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000092, LR: 0.000100,	loss=1.1680, 	 c-loss:0.2166, 	loc-loss:0.9514	cls-Accuracy:0.0000	loc-Avg-IOU:0.4497	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000093, LR: 0.000100,	loss=0.0164, 	 c-loss:0.0106, 	loc-loss:0.0058	cls-Accuracy:0.0000	loc-Avg-IOU:0.9893	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000093, LR: 0.000100,	loss=1.1493, 	 c-loss:0.2076, 	loc-loss:0.9416	cls-Accuracy:0.0000	loc-Avg-IOU:0.4699	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000094, LR: 0.000100,	loss=0.0150, 	 c-loss:0.0095, 	loc-loss:0.0055	cls-Accuracy:0.0000	loc-Avg-IOU:0.9900	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000094, LR: 0.000100,	loss=1.0985, 	 c-loss:0.1942, 	loc-loss:0.9042	cls-Accuracy:0.0000	loc-Avg-IOU:0.4719	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:45 ETA:  0:00:00Train -- Epoch :000095, LR: 0.000100,	loss=0.0121, 	 c-loss:0.0074, 	loc-loss:0.0047	cls-Accuracy:0.0000	loc-Avg-IOU:0.9917	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000095, LR: 0.000100,	loss=1.1602, 	 c-loss:0.2266, 	loc-loss:0.9336	cls-Accuracy:0.0000	loc-Avg-IOU:0.4560	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000096, LR: 0.000100,	loss=0.0122, 	 c-loss:0.0078, 	loc-loss:0.0044	cls-Accuracy:0.0000	loc-Avg-IOU:0.9923	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000096, LR: 0.000100,	loss=1.1654, 	 c-loss:0.2127, 	loc-loss:0.9527	cls-Accuracy:0.0000	loc-Avg-IOU:0.4718	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000097, LR: 0.000100,	loss=0.0145, 	 c-loss:0.0085, 	loc-loss:0.0061	cls-Accuracy:0.0000	loc-Avg-IOU:0.9885	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000097, LR: 0.000100,	loss=1.1710, 	 c-loss:0.2157, 	loc-loss:0.9553	cls-Accuracy:0.0000	loc-Avg-IOU:0.4548	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000098, LR: 0.000100,	loss=0.0154, 	 c-loss:0.0093, 	loc-loss:0.0061	cls-Accuracy:0.0000	loc-Avg-IOU:0.9879	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000098, LR: 0.000100,	loss=1.1761, 	 c-loss:0.2184, 	loc-loss:0.9576	cls-Accuracy:0.0000	loc-Avg-IOU:0.4590	 topIOU:0.0000
+ 99% (868 of 869) || Elapsed Time: 0:04:46 ETA:  0:00:00Train -- Epoch :000099, LR: 0.000100,	loss=0.0149, 	 c-loss:0.0096, 	loc-loss:0.0053	cls-Accuracy:0.0000	loc-Avg-IOU:0.9893	 topIOU:0.0000
+ 99% (137 of 138) || Elapsed Time: 0:00:20 ETA:  0:00:00Val -- Epoch :000099, LR: 0.000100,	loss=1.2230, 	 c-loss:0.2252, 	loc-loss:0.9978	cls-Accuracy:0.0000	loc-Avg-IOU:0.4578	 topIOU:0.0000
+
+Process finished with exit code 0

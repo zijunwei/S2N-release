@@ -1,0 +1,9 @@
+config_file
+config_file*
+ckpt/
+ckpt_biLSTM/
+ckpt*
+data/
+log/
+result/
+X/

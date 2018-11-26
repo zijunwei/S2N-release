@@ -1,0 +1,12 @@
+*.swp
+*.swn
+*.swo
+*.swm
+*.pth
+out/
+data/
+*.lprof
+
+.cache
+__pycache__
+src/__pycache__
