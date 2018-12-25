@@ -18,7 +18,7 @@ For the action proposal experiment, S2N is using reduced C3D feature similar to 
 1. we densely extract C3D fc7 feature with a window size of 16 frames to represent the center frame, (then sampling every 4 frames will be done in dataloader),
 2. we then use PCA to reduce the dimension from 4096D to 500D. The reduction code is [here][https://gist.github.com/escorciav/e4125c7a8a2e52ab4c47]
 
-The extracted features for our experiment can be downloaded from [here][https://drive.google.com/drive/u/1/folders/1jhuOsUNivcVzEI1Yg0PIKqZHErEqQV33?ogsrc=32] (4.8G)
+The extracted features for our experiment can be downloaded from [here][https://drive.google.com/file/d/16fofE34qpYSaJRALNYKAe83qIDEhhrsi/view?usp=sharing] (4.8G)
 
 
 
@@ -40,7 +40,7 @@ The conversion code in this repo is at S2N-release/Devs_ActionProp/action_det_pr
 The training code is at S2N-release/Experiments/ActionProp/ActionExp_v3_final.py, modify the paths and parameters to meet your setup
 A sampling training log can be found [here][ckpts/THUMOS/ActionExp_v3_final-Release-assgin0.50-alpha0.1000-dim512-dropout0.50-seqlen90-EMD-HUG/log-2018-05-15-14-08-58.txt]
 
-A snapshot can be found [here][https://drive.google.com/drive/u/1/folders/1jhuOsUNivcVzEI1Yg0PIKqZHErEqQV33?ogsrc=32]
+A snapshot can be found [here][https://drive.google.com/file/d/1krILLEmrUmH-6IjeO11uGhSgbc2owfl2/view?usp=sharing]
 
 ### Validation:
 
